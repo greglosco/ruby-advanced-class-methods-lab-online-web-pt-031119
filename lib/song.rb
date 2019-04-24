@@ -55,7 +55,7 @@ class Song
     input = song_info.split(" - ")
     artist = input[0]
     song_name = input[1].gsub(".mp3", "")
-    song = self.new
+    song = self.create
     song.name = song_name
     song.artist_name = artist 
     song
