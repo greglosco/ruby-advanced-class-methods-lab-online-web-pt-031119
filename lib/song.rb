@@ -43,6 +43,7 @@ class Song
   
   def self.new_from_filename(song_info)
     song = Song.new
+    
   end
   
   def self.create_from_filename
