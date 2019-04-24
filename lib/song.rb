@@ -45,7 +45,7 @@ class Song
     input = song_info.split(" - ")
     artist_name = input[0]
     song_name = input[1]
-    song = Song.new
+    song = self.new
     song.name = song_name
     song.artist = artist_name 
     song
